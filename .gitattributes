@@ -1,1 +1,55 @@
-*.pth filter=lfs diff=lfs merge=lfs -text
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ==========================
+# Environment & virtual env
+# ==========================
+venv/
+env/
+.venv/
+
+# ==========================
+# IDE & system files
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs & temp
+# ==========================
+*.log
+*.tmp
+
+# ==========================
+# Checkpoints & weights
+# ==========================
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# ==========================
+# Dataset folders
+# ==========================
+dataset/
+data/
+output/
+results/
+runs/
+__results__/
+
+# ==========================
+# Archives
+# ==========================
+*.zip
+*.tar
+*.gz
+*.rar
