@@ -1,6 +1,6 @@
 Cấu trúc thư mục:  
 <img width="313" height="511" alt="image" src="https://github.com/user-attachments/assets/bc005d96-0e73-425f-af44-e87ecbaac36f" />  
-1. Trường hợp muốn tự train lại  
+# 1. Trường hợp muốn tự train lại  
    Bước 1: Chuẩn bị môi trường  
       python -m venv venv  
       venv\Scripts\activate  
@@ -127,7 +127,7 @@ Cấu trúc thư mục:
                   # python train_u2net.py
    Bước 5: Ở venv chạy python train_u2net.py  
   
-3. Trường hợp muốn dùng file .pth đã qua train:  
+# 2. Trường hợp muốn dùng file .pth đã qua train:  
   Tải file u2net_epoch50_320px.pth tại: https://drive.google.com/drive/folders/11I0q6opspbhRh3rnrGmbqeVhHcGpf0bK?usp=drive_link
   
   Tại thư mục dự án của bạn, sau khi clone U2NET (git clone https://github.com/xuebinqin/U-2-Net.git U2NET)  
@@ -151,7 +151,7 @@ Cấu trúc thư mục:
         print("[OKE] Model loaded successfully!\n")
    Tham khảo thêm tại VIDEO-POLYP-SEG (sẽ cập nhật thêm đường dẫn sau vì dự án vẫn còn đang train)  
      
-3. Author:  
+# 3. Author:  
       Name	          Lưu Khả Nghị  
       University	    Đại học Cần Thơ  
       Course	        CT255 – Nghiệp vụ Thông minh  
