@@ -1,3 +1,5 @@
+This project uses the U²-Net model to train and generate masks from frames extracted from polyp endoscopy videos. The goal is to automatically segment polyp regions in each frame, supporting medical research and endoscopic applications.  
+  
 # Project Structure  
 <img width="313" height="511" alt="image" src="https://github.com/user-attachments/assets/bc005d96-0e73-425f-af44-e87ecbaac36f" />  
   
@@ -20,7 +22,7 @@ pip install torch torchvision torchaudio
 Place your dataset (including both frames and masks) into the dataset folder.  
 Recommended dataset: KVarsir Segmentation Dataset - https://www.kaggle.com/datasets/kuece16/kvarsir-seg/data  
   
-# Install U2Net  
+# Install U²-Net  
 Create a folder U2NET/ in your project.  
 Download u2net.py from the official repo: https://github.com/xuebinqin/U-2-Net.  
 Copy it into the U2NET/ folder.  
