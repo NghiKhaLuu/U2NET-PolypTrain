@@ -161,5 +161,5 @@ After:
 # Author  
 Name: Luu Kha Nghi  
 University: Can Tho University  - VietNam  
-Course: CT255 - Intelligent Business Operations 
+Course: CT255 - Intelligent Business Operations  
 GitHub: NghiKhaLuu  
