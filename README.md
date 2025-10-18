@@ -152,6 +152,6 @@ Additional reference: VIDEO-POLYP-SEG project (links will be updated as training
   
 # Author  
 Name: Lưu Khả Nghị  
-University: Đại học Cần Thơ  - Việt Nam
+University: Đại học Cần Thơ  - Việt Nam  
 Course: CT255 – Nghiệp vụ Thông minh  
 GitHub: NghiKhaLuu  
