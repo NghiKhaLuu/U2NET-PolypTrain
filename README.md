@@ -1,5 +1,5 @@
 # Project Structure  
-<img width="300" alt="Project Structure" src="path/to/image.png" />  
+<img width="313" height="511" alt="image" src="https://github.com/user-attachments/assets/bc005d96-0e73-425f-af44-e87ecbaac36f" />  
 # Requirements  
 - Python 3.10+  
 - PyTorch 2.2+  
