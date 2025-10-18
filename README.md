@@ -139,23 +139,23 @@ Cấu trúc thư mục:
    (U2NET/saved_models/u2net/u2net_epoch50_320px.pth)  
      
    Trong file .py dùng để chuyển frames=>masks:  
-     # Đường dẫn đến model U2NET  
-        model_path = os.path.normpath(os.path.join(base_dir, "../U2NET/saved_models/u2net/u2net_epoch50_320px.pth"))
-     # Load model  
-        print("Loading U2NET model ...")
-        net = U2NET(3, 1)
-        state_dict = torch.load(model_path, map_location=device)
-        net.load_state_dict(state_dict)
-        net.to(device)
-        net.eval()
-        print("[OKE] Model loaded successfully!\n")
+     Đường dẫn đến model U2NET  
+                model_path = os.path.normpath(os.path.join(base_dir, "../U2NET/saved_models/u2net/u2net_epoch50_320px.pth"))  
+     Load model  
+              print("Loading U2NET model ...")  
+              net = U2NET(3, 1)  
+              state_dict = torch.load(model_path, map_location=device)  
+              net.load_state_dict(state_dict)  
+              net.to(device)  
+              net.eval()  
+              print("[OKE] Model loaded successfully!\n")  
    Tham khảo thêm tại VIDEO-POLYP-SEG (sẽ cập nhật thêm đường dẫn sau vì dự án vẫn còn đang train)  
      
 # 3. Author:  
-      Name	          Lưu Khả Nghị  
-      University	    Đại học Cần Thơ  
-      Course	        CT255 – Nghiệp vụ Thông minh  
-      GitHub	        NghiKhaLuu  
+      Name  	          Lưu Khả Nghị    
+      University  	    Đại học Cần Thơ    
+      Course  	        CT255 – Nghiệp vụ Thông minh    
+      GitHub  	        NghiKhaLuu    
 
 
 
