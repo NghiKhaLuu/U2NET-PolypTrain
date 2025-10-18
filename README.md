@@ -1,9 +1,11 @@
 # Project Structure  
 <img width="313" height="511" alt="image" src="https://github.com/user-attachments/assets/bc005d96-0e73-425f-af44-e87ecbaac36f" />  
+  
 # Requirements  
 - Python 3.10+  
 - PyTorch 2.2+  
-- OpenCV, Pillow, albumentations  
+- OpenCV, Pillow, albumentations
+  
 # Setup  
 python -m venv venv  
 venv\Scripts\activate  
@@ -13,15 +15,19 @@ If using GPU (>= NVIDIA GeForce RTX 2050):
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121  
 If using CPU:  
 pip install torch torchvision torchaudio  
+  
 # Prepare the dataset  
 Place your dataset (including both frames and masks) into the dataset folder.  
 Recommended dataset: KVarsir Segmentation Dataset - https://www.kaggle.com/datasets/kuece16/kvarsir-seg/data  
+  
 # Install U2Net  
 Create a folder U2NET/ in your project.  
 Download u2net.py from the official repo: https://github.com/xuebinqin/U-2-Net.  
 Copy it into the U2NET/ folder.  
 Alternatively, you can use the entire U2NET folder from U2NET-PolypTrain.  
+  
 # Create train_u2net.py Or download it from U2NET-PolypTrain.  
+  
                      #Example code structure:
                      import os, cv2, torch, torch.nn as nn
                      import torch.optim as optim
