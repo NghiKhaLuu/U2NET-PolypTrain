@@ -150,6 +150,12 @@ U2NET/saved_models/u2net/u2net_epoch50_320px.pth
   
 Additional reference: VIDEO-POLYP-SEG project (links will be updated as training progresses).  
   
+# Example:  
+Before:  
+<img width="832" height="360" alt="image" src="https://github.com/user-attachments/assets/e6accceb-d38d-4ad5-a024-98766a5ad56f" />  
+After:  
+<img width="832" height="363" alt="image" src="https://github.com/user-attachments/assets/0687a8a7-04d7-4b4b-8e6c-cab69c806f1b" />  
+  
 # Author  
 Name: Luu Kha Nghi  
 University: Can Tho University  - VietNam  
