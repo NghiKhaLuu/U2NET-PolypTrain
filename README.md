@@ -151,7 +151,7 @@ Cấu trúc thư mục:
         print("[OKE] Model loaded successfully!\n")
    Tham khảo thêm tại VIDEO-POLYP-SEG (sẽ cập nhật thêm đường dẫn sau vì dự án vẫn còn đang train)  
      
-5. Author:  
+3. Author:  
       Name	          Lưu Khả Nghị  
       University	    Đại học Cần Thơ  
       Course	        CT255 – Nghiệp vụ Thông minh  
