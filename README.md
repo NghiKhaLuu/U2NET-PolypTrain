@@ -151,7 +151,7 @@ U2NET/saved_models/u2net/u2net_epoch50_320px.pth
 Additional reference: VIDEO-POLYP-SEG project (links will be updated as training progresses).  
   
 # Author  
-Name: Lưu Khả Nghị  
-University: Đại học Cần Thơ  - Việt Nam  
-Course: CT255 – Nghiệp vụ Thông minh  
+Name: Luu Kha Nghi  
+University: Can Tho University  - VietNam  
+Course: CT255 - Intelligent Business Operations 
 GitHub: NghiKhaLuu  
