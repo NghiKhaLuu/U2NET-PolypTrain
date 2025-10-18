@@ -6,15 +6,18 @@ Cấu trúc thư mục:
       venv\Scripts\activate  
       pip install opencv-python pillow tqdm albumentations  
       Nếu dùng GPU (>=NVIDIA GeForce RTX 2050): pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121  
-      Nếu dùng CPU: pip install torch torchvision torchaudio  
+      Nếu dùng CPU: pip install torch torchvision torchaudio
+     
    Bước 2: Chuẩn bị dataset  
        Đưa dataset mà bạn muốn dùng đề huấn kuyện vào thư mục dataset bao gồm cả frames và mask.  
-       Đề xuất lấy tại: https://www.kaggle.com/datasets/kuece16/kvarsir-seg/data  
+       Đề xuất lấy tại: https://www.kaggle.com/datasets/kuece16/kvarsir-seg/data
+     
    Bước 3: Bước 3: Cài U2Net  
       Tạo folder U2NET/ trong dự án.  
       Download file u2net.py từ repo chính: https://github.com/xuebinqin/U-2-Net.  
       Copy vào folder U2NET/.  
-      Hoặc lấy cả folder U2NET tại U2NET-PolypTrain.  
+      Hoặc lấy cả folder U2NET tại U2NET-PolypTrain.
+     
    Bước 4: Tạo file train_u2net.py hoặc tải về từ U2NET-PolypTrain.  
               import os, cv2, torch, torch.nn as nn  
               import torch.optim as optim  
@@ -124,14 +127,17 @@ Cấu trúc thư mục:
                   # python train_u2net.py
    Bước 5: Ở venv chạy python train_u2net.py  
   
-2. Trường hợp muốn dùng file .pth đã qua train:  
-  Tải file u2net_epoch50_320px.pth tại: https://drive.google.com/drive/folders/11I0q6opspbhRh3rnrGmbqeVhHcGpf0bK?usp=drive_link  
+3. Trường hợp muốn dùng file .pth đã qua train:  
+  Tải file u2net_epoch50_320px.pth tại: https://drive.google.com/drive/folders/11I0q6opspbhRh3rnrGmbqeVhHcGpf0bK?usp=drive_link
+  
   Tại thư mục dự án của bạn, sau khi clone U2NET (git clone https://github.com/xuebinqin/U-2-Net.git U2NET)  
+    
   Trong U2NET  
     =>saved_models  
     	=>Tạo folder: u2net  
     		=>Đưa file .pth vào: u2net_epoch50_320px.pth  
    (U2NET/saved_models/u2net/u2net_epoch50_320px.pth)  
+     
    Trong file .py dùng để chuyển frames=>masks:  
      # Đường dẫn đến model U2NET  
         model_path = os.path.normpath(os.path.join(base_dir, "../U2NET/saved_models/u2net/u2net_epoch50_320px.pth"))
@@ -144,7 +150,8 @@ Cấu trúc thư mục:
         net.eval()
         print("[OKE] Model loaded successfully!\n")
    Tham khảo thêm tại VIDEO-POLYP-SEG (sẽ cập nhật thêm đường dẫn sau vì dự án vẫn còn đang train)  
-3. Author:  
+     
+5. Author:  
       Name	          Lưu Khả Nghị  
       University	    Đại học Cần Thơ  
       Course	        CT255 – Nghiệp vụ Thông minh  
